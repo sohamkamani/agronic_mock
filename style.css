@@ -1,11 +1,16 @@
-header{
+header,footer{
   text-align: center;
+  clear: both;
 }
 
 section div nav{
   display:inline;
   clear: both;
 
+}
+
+section{
+  overflow: hidden;
 }
 
 section nav {
@@ -23,14 +28,4 @@ section div{
 section div div{
   width: 50%;
   float: left;
-}
-
-section div div h4{
-  width: 100%;
-  float: left;
-}
-
-footer {
-  clear: both;
-  text-align: center;
 }
