@@ -1,0 +1,23 @@
+header, footer {
+  text-align: center;
+  clear: both;
+}
+body>nav {
+  text-align: center;
+}
+div div nav {
+  display: inline;
+  clear: both;
+}
+div nav {
+  width: 20%;
+  float: left;
+}
+div div {
+  width: 80%;
+  float: left;
+}
+div div div {
+  width: 50%;
+  float: left;
+}
